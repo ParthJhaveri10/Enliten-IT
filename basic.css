@@ -1,0 +1,32 @@
+.environ {
+  line-height: 1.5;
+  padding: 20px;
+}
+.envi {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+.left-aligns {
+  text-align: left;
+}
+.ups {
+  padding-top: 100px;
+}
+.upper {
+  padding-top: 50px;
+}
+.pad-box {
+  padding-bottom: 80px;
+}
+.texts {
+  font-weight: 200;
+}
+.mag-up {
+  margin-top: -50px;
+}
+.text-box {
+  width: 1000px;
+}
+.text-box p {
+  margin-left: 190px;
+}

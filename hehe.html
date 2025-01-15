@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylelish.css" />
+    <link rel="stylesheet" href="basic.css" />
+    <link rel="stylesheet" href="ham.css" />
+    <link rel="stylesheet" href="div-lines.css" />
+    <link rel="stylesheet" href="symbols.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="my_jquery_functions.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="hero">
+      <div class="navbar">
+        <h1 class="logo">
+          <img class="logo-white" src="./photos/logo-white.svg" alt="" />
+          <img
+            class="logo-black"
+            style="display: none"
+            src="./photos/logo-black.svg"
+            alt=""
+          />
+        </h1>
+        <nav>
+          <ul>
+            <div class="switch">
+              <span class="day-call">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-sun"
+                >
+                  <circle cx="12" cy="12" r="5"></circle>
+                  <line x1="12" y1="1" x2="12" y2="3"></line>
+                  <line x1="12" y1="21" x2="12" y2="23"></line>
+                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                  <line x1="1" y1="12" x2="3" y2="12"></line>
+                  <line x1="21" y1="12" x2="23" y2="12"></line>
+                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+              </span>
+              <span class="night-call">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#111"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-moon"
+                >
+                  <path
+                    d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+                  ></path>
+                </svg>
+              </span>
+            </div>
+            <!-- HAMBURGER -->
+            <label>
+              <input type="checkbox" />
+              <span class="menu"> <span class="hamburger"></span> </span>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Clientele</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </label>
+          </ul>
+        </nav>
+      </div>
+      <!-- NAVBAR ENDS -->
+      <div class="environ white">
+        <h2>IT CONSULTANCY</h2>
+        <h4>We Simplify <span class="red">IT</span></h4>
+      </div>
+      <!-- CONTAINER -->
+      <div data-aos="fade-up" class="gray-background white">
+        <div data-aos="fade-up" class="top">
+          <div data-aos="fade-up" class="left">
+            <div data-aos="fade-up" class="environ">
+              <h2 data-aos="fade-up" class="its">IT CONSULTANCY</h2>
+
+              <p data-aos="fade-up">
+                EnlitenIT business process consulting services can help you cut
+                through the traditional boundaries to create more strategic
+                possibilities. You can measure data, analyze information, create
+                models, optimize resources, discover solutions, and automate
+                processes using our highly customizable solutions.
+              </p>
+            </div>
+          </div>
+          <div data-aos="fade-up" class="right">
+            <img
+              data-aos="fade-up"
+              style="height: 400px; width: 600px"
+              src="photos/It-Consultancy_White-Border.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <img
+          data-aos="fade-up"
+          class="polygon"
+          src="photos/Polygon-5.png"
+          alt=""
+        />
+      </div>
+      <!-- BUSSINESS PROCESSES -->
+      <div data-aos="fade-up" class="envi">
+        <h2 data-aos="fade-up" class="left-aligns">
+          BUSINESS PROCESSES
+          <span data-aos="fade-up" style="font-weight: 200"
+            >STREAMLINING AND AUTOMATION</span
+          >
+        </h2>
+      </div>
+      <!-- BOX 1 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts">EVALUATION</h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">01</h1>
+          <div class="text-box">
+            <p style="margin-left: 205px">
+              Study, research, observation and finding of the existing data
+              system and workflow.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- BOX 2 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts">MODELLING</h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">02</h1>
+          <div class="text-box">
+            <p>
+              Sketch out the process and calculate the time and expense required
+              to accomplish it.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- BOX 3 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts">AUTOMATING</h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">03</h1>
+          <div class="text-box">
+            <p>
+              Shift your process from manual to digital, with data collected via
+              ready or custom application and by bridging all of them to
+              automation and proactiveness.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- BOX 4 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts">REVIEWING</h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">04</h1>
+          <div class="text-box">
+            <p>
+              Better understand your processes, the business data that they
+              contain, and the efficacy of the contributors in those processes
+              through an Agile methodology.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOX 5 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts">OPTIMIZING</h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">05</h1>
+          <div class="text-box">
+            <p>
+              Try to make your day-to-day business processes more productive,
+              cost-effective, and error-free. Bring responsibility,
+              accountability through tracking and monitoring.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BENEFITS -->
+      <div data-aos="fade-up" class="envi ups">
+        <h2 class="left-aligns">BENEFITS</h2>
+      </div>
+      <!-- BOX 1 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts"></h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">01</h1>
+          <div class="text-box">
+            <p style="margin-left: 205px">
+              Cost reductions, effortless change management, and implementation
+              of an integrated company strategy.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- BOX 2 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts"></h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">02</h1>
+          <div class="text-box">
+            <p>
+              Enterprise enabled cross-enterprise integration to expand and
+              extend management controls across several platforms.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- BOX 3 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts"></h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">03</h1>
+          <div class="text-box">
+            <p>
+              Stand true to the best-practise standards with adherence to
+              requirements, compliance, processes, and regulations.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- BOX 4 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts"></h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">04</h1>
+          <div class="text-box">
+            <p>
+              Provides a structured and highly effective environment, extending
+              to various process automation with accountability.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOX 5 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts"></h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">05</h1>
+          <div class="text-box">
+            <p>
+              Allows the expansion of department-specific processes to be a
+              catalyst for the enterprise future goals.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- DATA ANALYTICS -->
+      <!-- DIV 2 -->
+      <h2 data-aos="fade-up" class="left-side">
+        DATA ANALYTICS
+        <span style="font-weight: 200">AND BUSSINESS INTELLIGENCE</span>
+      </h2>
+      <div>
+        <div data-aos="fade-up" class="gray-background2">
+          <img
+            src="photos/Financial_White-Border.png"
+            style="
+              align-items: center;
+              align-content: center;
+              position: relative;
+              left: 180px;
+              top: 60px;
+            "
+            alt=""
+          />
+        </div>
+        <img class="polygon2" src="photos/Polygon-5.png" alt="" />
+        <img
+          src="photos/Group-10694.png"
+          style="position: relative; left: 1000px"
+          alt=""
+        />
+      </div>
+      <!-- BOX 1 -->
+      <div data-aos="fade-up" class="box mag-up">
+        <h2 class="left-aligns texts">EDIFYBIZ SHOW</h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row pad-box">
+          <h1 class="numbers">01</h1>
+          <div class="text-box">
+            <p style="margin-left: 205px">
+              EdifyBiz Show is a custom solution for all of your company’s data
+              analytics and BI needs. It is capable of creating simplified
+              infographics of the analysed data and key performance areas
+              required from the management standpoint. A dashboard that
+              summarises your business exactly the way you want and is available
+              on any device.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- BOX 2 -->
+      <div data-aos="fade-up" class="box mag-up">
+        <h2 class="left-aligns texts">TABLEAU</h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row pad-box">
+          <h1 class="numbers">02</h1>
+          <div class="text-box">
+            <p>
+              Tableau is presently the most popular and widely used BI product.
+              A sophisticated data finding and exploration tool that helps you
+              to quickly find answers to critical problems. It features the best
+              visualisation capabilities and a flawless graphical user interface
+              on the front end. It also has built-in analytics modules that the
+              user may operate directly on their data. <br />
+              <br />
+              It allows data from a variety of sources to be combined. It can
+              store data in memory or retrieve it directly from the source if
+              the files are too vast to accommodate in memory. It allows users
+              to configure dynamic visuals, create app objects, and share
+              reports and documents with other users via the internet.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- BOX 3 -->
+      <div data-aos="fade-up" class="box mag-up">
+        <h2 class="left-aligns texts">MICROSOFT POWER BI</h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row pad-box">
+          <h1 class="numbers">03</h1>
+          <div class="text-box">
+            <p>
+              Microsoft’s Power BI is a business analytics tool that allows you
+              to visualise data and share insights throughout your organisation,
+              as well as integrate them in your app or website. Your data could
+              be in the form of an Excel spreadsheet or a collection of hybrid
+              data warehouses that are both cloud-based and on-premises. Power
+              BI makes it simple to connect to your data sources, display what’s
+              essential, and find out what’s significant. <br />
+              <br />
+              For users who are familiar with Excel, Power BI’s user interface
+              is relatively intuitive, and its strong connectivity with other
+              Microsoft products makes it an extremely adaptable self-service
+              tool with little upfront training.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- BOX 4 -->
+      <div data-aos="fade-up" class="box mag-up">
+        <h2 class="left-aligns texts">GOOGLE DATA STUDIO</h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row pad-box">
+          <h1 class="numbers">04</h1>
+          <div class="text-box">
+            <p>
+              Data Studio, also known as Google Data Studio, is a reporting and
+              data visualisation application developed by Google. It gathers
+              data from up to 12 various sources, including Google Analytics,
+              and compiles it into a report that is simple to edit, distribute,
+              and read. Widgets, graphs, charts, and maps are also available to
+              help you visualise your data. Data Studio reports can be broken
+              down into one page or twenty, illustrating the flexibility and
+              customisation of Google Data Studio. It adjusts to your company’s
+              specific requirements, making data sharing a stress-free
+              experience. Data Studio is essentially a geared up version of
+              Google Analytics dashboard, which is notoriously limited in terms
+              of features.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- FUTURE -->
+      <div data-aos="fade-up" class="envi upper">
+        <h2 class="left-aligns">FUTURE TECHNOLOGY</h2>
+      </div>
+      <!-- BOX 1 -->
+      <div data-aos="fade-up" class="box">
+        <h2 class="left-aligns texts"></h2>
+        <div class="main-line">
+          <div class="line"></div>
+          <div class="light-line"></div>
+        </div>
+
+        <div data-aos="fade-up" class="flex-row">
+          <h1 class="numbers">01</h1>
+          <div class="text-box">
+            <p style="margin-left: 205px">
+              We assist businesses to take advantage of the finest of
+              Information Technology by advising them on upcoming technologies
+              developed and innovated by market leaders. <br />
+              <br />
+              Empower your application with AI, ML Bots, Natural Language
+              Understanding, Deep Learning, OCR on the FLY, Speech to Text, Text
+              to Speech, Bots, Language Translators, Server less Solutions, IoT
+              by using the following
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- SYMBOLS -->
+      <div data-aos="fade-up" class="big-mom">
+        <div class="child">
+          <img class="logos-white" src="./photos/Cloud.png" alt="" />
+          <img
+            class="logos-black"
+            style="display: none"
+            src="./photos/Google-Cloud_Black.png"
+            alt=""
+          />
+          <h4>GOOGLE CLOUD</h4>
+        </div>
+        <div class="child">
+          <img class="logos-white" src="./photos/AWS_1.png" alt="" />
+          <img
+            class="logos-black"
+            style="display: none"
+            src="./photos/AWS_Black.png"
+            alt=""
+          />
+          <h4>AWS</h4>
+        </div>
+        <div class="child">
+          <img class="logos-white" src="./photos/Microsoft_1.png" alt="" />
+          <img
+            class="logos-black"
+            style="display: none"
+            src="./photos/Microsoft-Azure_Black.png"
+            alt=""
+          />
+          <h4>MICROSOFT AZURE</h4>
+        </div>
+        <div class="child">
+          <img class="logos-white" src="./photos/IBM_1.png" alt="" />
+          <img
+            class="logos-black"
+            style="display: none"
+            src="./photos/IBM_Black.png"
+            alt=""
+          />
+          <h4>IBM WATSON</h4>
+        </div>
+      </div>
+      <div data-aos="fade-up" class="start">
+        <h4>START YOUR JOURNEY NOW!</h4>
+        <button class="knows">KNOW MORE</button>
+        <br /><br /><br />
+        <div class="main-line alis">
+          <div class="light-line"></div>
+        </div>
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container foot-line">
+        <div class="row">
+          <div class="footer-col">
+            <img class="en" src="./photos/logo-white.svg" alt="" />
+            <img
+              class="en-b"
+              style="display: none"
+              src="./photos/logo-black.svg"
+              alt=""
+            />
+          </div>
+
+          <div class="footer-col">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Projects</a></li>
+              <li><a href="">Governance</a></li>
+              <li><a href="">Health And Safety</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul>
+              <li><a href="">Impact</a></li>
+              <li><a href="">Media</a></li>
+              <li><a href="">Carrers</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 class="contact">Contact Us</h4>
+            <div class="f-cols">
+              Safeway <br />
+              603B, Godrej BKC, Bandra Kurla Complex, Mumbai - 400051,
+              Maharashtra <br />
+              022 5056 2100 <br />
+              info@safewayconcessions.com
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="copy">
+        © 2023 Safeway , All Rights Reserved. Designed and Developed by Enliten
+        IT
+      </div>
+    </footer>
+
+    <script>
+      $(document).ready(function () {
+        $(".day-call").click(function () {
+          $(".hero").css("transition", "all,ease,1s");
+          $(".hero").css("color", "black");
+          $(".hero").css("background-color", "white");
+          $(".line1").css("background-color", "black");
+          $(".line2").css("background-color", "black");
+          $(".line3").css("background-color", "black");
+          $(".gray-background").css("background-color", "white");
+          $(".gray-background2").css("background-color", "white");
+          $(".night-call").css("display", "block");
+          $(".day-call").css("display", "none");
+          $(".logo-black").css("display", "block");
+          $(".logo-white").css("display", "none");
+          $(".logos-black").css("display", "block");
+          $(".logos-white").css("display", "none");
+          $(".line").css("background-color", "black");
+          $(".light-line").css("background-color", "black");
+          $(".foot-line").css("border-bottom", "2px solid black");
+          $(".footer").css("background-color", "white");
+          $(".f-cols").css("color", "black");
+          $(".en").css("display", "none");
+          $(".en-b").css("display", "block");
+          $(".copy").css("color", "black");
+          $(".contact").css("color", "black");
+        });
+        $(".night-call").click(function () {
+          $(".hero").css("transition", "all,ease,1s");
+          $(".hero").css("color", "white");
+          $(".hero").css("background-color", "black");
+          $(".line1").css("background-color", "white");
+          $(".line2").css("background-color", "white");
+          $(".line3").css("background-color", "white");
+          $(".gray-background").css("background-color", "");
+          $(".gray-background2").css("background-color", "");
+          $(".night-call").css("display", "none");
+          $(".day-call").css("display", "block");
+          $(".logo-black").css("display", "none");
+          $(".logo-white").css("display", "block");
+          $(".logos-black").css("display", "none");
+          $(".logos-white").css("display", "block");
+          $(".line").css("background-color", "white");
+          $(".light-line").css("background-color", "white");
+          $(".foot-line").css("border-bottom", "2px solid white");
+          $(".footer").css("background-color", "black");
+          $(".contact").css("color", "white");
+          $(".f-cols").css("color", "white");
+          $(".en").css("display", "block");
+          $(".en-b").css("display", "none");
+          $(".copy").css("color", "white");
+        });
+      });
+    </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+.big-mom {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin-left: 150px;
+  justify-content: space-between;
+}
+.big-mom h4 {
+  margin-top: 10px;
+  font-weight: 200;
+}
+.child {
+  width: 190px;
+  height: 170px;
+  padding: 20px;
+  margin-left: 20px;
+}
+.child img {
+  position: relative;
+  width: 60%;
+  height: 80%;
+  object-fit: contain;
+  margin-left: 30px;
+}
+
+.start {
+  padding-top: 70px;
+  width: 1520px;
+  height: 300px;
+}
+.start h4 {
+  padding-bottom: 20px;
+}
+.knows {
+  font-size: 14px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  position: relative;
+  left: 46%;
+  font-weight: 600;
+}
+.knows:hover {
+  transition: all 0.3s ease;
+  color: black;
+  background-color: var(--white-color);
+}
+.alis {
+  position: relative;
+  left: 16.5%;
+}
